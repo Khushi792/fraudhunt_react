@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/FraudHunt_React/static/css/main.dca8372d.css",
-    "main.js": "/FraudHunt_React/static/js/main.97a584fc.js",
+    "main.js": "/FraudHunt_React/static/js/main.c9d1aa9d.js",
     "static/media/loginbackround.jpg": "/FraudHunt_React/static/media/loginbackround.410566347827c165358e.jpg",
     "static/media/logo.png": "/FraudHunt_React/static/media/logo.a4d275c8aaadacb1a935.png",
     "index.html": "/FraudHunt_React/index.html",
     "main.dca8372d.css.map": "/FraudHunt_React/static/css/main.dca8372d.css.map",
-    "main.97a584fc.js.map": "/FraudHunt_React/static/js/main.97a584fc.js.map"
+    "main.c9d1aa9d.js.map": "/FraudHunt_React/static/js/main.c9d1aa9d.js.map"
   },
   "entrypoints": [
     "static/css/main.dca8372d.css",
-    "static/js/main.97a584fc.js"
+    "static/js/main.c9d1aa9d.js"
   ]
 }

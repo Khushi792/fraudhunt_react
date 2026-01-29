@@ -1,0 +1,108 @@
+body {
+        font-family: sans-serif;
+        line-height: 1.6;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        background: url("https://iskzoo.org/wp-content/uploads/2021/07/new-fruad-3-600x641.png") no-repeat center center fixed;
+        background-size: cover;
+        font-size: large; /* Applied globally */
+    }
+    .content-section {
+        max-width: 960px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background for readability over image */
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2, h3 {
+        color: #0056b3;
+        border-bottom: 1px solid #eee;
+        padding-bottom: 10px;
+        margin-top: 30px;
+    }
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.5em; }
+    h3 { font-size: 1.2em; }
+    p, ul, ol, dl { margin-bottom: 15px; }
+    a { color: #007bff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    iframe {
+        max-width: 100%;
+        height: 432px; /* Standardized height for videos */
+        display: block;
+        margin: 20px auto;
+    }
+    nav {
+        background: #0F172A;
+        position: sticky; /* Keeps navigation bar at the top when scrolling */
+        top: 0;
+        z-index: 1000;
+        text-align: center;
+    }
+    nav a {
+        color: white;
+        margin-right: 15px;
+        text-decoration: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+       color: black;
+        text-decoration: none;
+    }
+    .container {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .box {
+        border: 2px solid black;
+        width: 300px;
+        margin: 10px;
+        box-shadow: 0 4px 8px rgba(200,200,200,0.5);
+        border-radius: 20px;
+        background-color: rgb(193, 100, 116);
+        border-color: black;
+        font-size: large;
+        padding: 15px;
+        /* Removed fixed height to prevent content cutoff, content will dictate height */
+    }
+    .box h3 {
+        margin-top: 0;
+        border-bottom: none;
+        color: #fff; /* White heading color for readability on darker box background */
+    }
+    .box p, .box a {
+        color: #fff; /* White text and link color for readability on darker box background */
+    }
+    .box a:hover {
+        color: #eee;
+    }
+    #title { /* Specific rule for the 'Together, we can create...' heading */
+        color: red;
+    }
+    hr {
+        border: 0;
+        height: 1px;
+        background: #eee;
+        margin: 40px 0;
+    }
+    .contact-email a {
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        
+    }
+    #logo {
+  height: 60px;           /* Visible and balanced */
+  width: auto;            /* Keeps original aspect ratio */
+  margin-right: 20px;     /* Spacing from next element */
+  object-fit: contain;    /* Avoids distortion or cropping */
+  vertical-align: middle; /* Aligns well with text/nav */
+  display: inline-block;  /* Keeps inline flow with nav */
+}

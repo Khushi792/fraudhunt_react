@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Verdana, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  transition: all 500ms ease;
+}
+
+body {
+  background: #f1f9ff;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  background-color: #007bb5;
+  padding: 1em;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#logo {
+  height: 60px;
+  width: auto;
+  margin-right: 20px;
+  object-fit: contain;
+  vertical-align: middle;
+  display: inline-block;
+}
+.rowclass {
+  width: 1200px;
+}
+.row {
+  background-color: #00b7ff;
+  color: white;
+  text-align: center;
+  padding: 2em 2em 1em;
+  margin: 2em auto;
+  border-radius: 8px;
+}
+
+.row h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.information-text {
+  color: white;
+  font-size: 0.95em;
+  margin-bottom: 1.5em;
+}
+
+.form-group {
+  margin-bottom: 1.5em;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.8em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 1em;
+  font-size: 1em;
+  color: black;
+  background-color: white;
+}
+
+.form-group label {
+  text-align: left;
+  display: block;
+  font-weight: 600;
+  margin-top: 0.5em;
+  color: #fff;
+}
+
+.form-group button {
+  background-color: white;
+  color: #00b7ff;
+  font-weight: bold;
+  padding: 1em;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1.5em;
+}
+
+.form-group button:hover {
+  background-color: #f0f0f0;
+}
+
+.footer h5 {
+  margin-top: 1em;
+  font-size: 0.9em;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 480px) {
+  .row {
+    padding: 1em;
+    width: 95%;
+  }
+
+  .row h1 {
+    font-size: 1.8em;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul li {
+    margin: 0.5em 0;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .row {
+    width: 50%;
+  }
+}

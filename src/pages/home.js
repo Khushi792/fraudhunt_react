@@ -63,6 +63,7 @@ function Home() {
               </NavLink>
             </li>
           </ul>
+                  <span class="menu-toggle">☰</span>
         </nav>
       </header>
 
@@ -132,6 +133,14 @@ function Home() {
           </a>
         </div>
       </section>
+              <script>
+  const toggle = document.querySelector(".menu-toggle");
+  const navMenu = document.querySelector("nav ul");
+
+  toggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+  });
+</script>
     </>
   );
 }
